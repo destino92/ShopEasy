@@ -38,4 +38,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # necessary for paperclip to have access to imageMagic on windows
+  Paperclip.options[:command_path] = "/c/Program Files/ImageMagick-6.9.2-Q16/convert"
+  Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
 end
