@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
@@ -26,6 +26,10 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'simple_form'
 # use paperclip for file uploading in our case image
 gem 'paperclip', '~> 4.3'
+# use dropbox for storing images in the cloud(might change later)
+gem "paperclip-dropbox", ">= 1.1.7"
+# use figaro for dropbox credential protection
+gem "figaro"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

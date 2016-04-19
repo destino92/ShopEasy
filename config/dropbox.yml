@@ -1,0 +1,6 @@
+app_key: "4f3k4be6wym9abm"
+app_secret: <%= ENV["app_secret"] %>
+access_token: "5didrrutv2iihqc1"
+access_token_secret: <%= ENV["app_token_secret"] %>
+user_id: "556972271"
+access_type: "app_folder"
