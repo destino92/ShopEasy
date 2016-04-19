@@ -1,2 +1,47 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+$greenGossip: #87D37C;
+$greyCarrara: #F2F1EF;
+
+body {
+	background: #F2F1EF;
+	color: #33333;
+}
+
+.navbar-default {
+	background-color: $greenGossip;
+
+	.navbar-brand {
+		font-weight: 400;
+		color: $greyCarrara;
+		font-size: 30px;
+	}
+
+	.navbar-nav {
+		li {
+			a {
+				font-size: 16px;
+				font-weight: lighter;
+			}
+		}
+	}
+}
+
+.col-md-3:nth-child(4n+1) {
+	clear: left;
+}
+
+.col-md-6 {
+	h2 {
+		font-size: 45px;
+	}
+
+	h4 {
+		font-size: 25px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+}
