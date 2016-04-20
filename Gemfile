@@ -30,6 +30,8 @@ gem 'paperclip', '~> 4.3'
 gem "paperclip-dropbox", ">= 1.1.7"
 # use figaro for dropbox credential protection
 gem "figaro"
+# use devise for authentication will change to omniauth
+gem 'devise'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

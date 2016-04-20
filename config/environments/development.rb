@@ -42,4 +42,8 @@ Rails.application.configure do
   # necessary for paperclip to have access to imageMagic on windows
   Paperclip.options[:command_path] = "/c/Program Files/ImageMagick-6.9.2-Q16/convert"
   Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
+
+  # Required for devise gem
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
 end
