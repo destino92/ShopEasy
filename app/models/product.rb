@@ -8,5 +8,8 @@ class Product < ActiveRecord::Base
     				  :path => ":style/:id_:filename"
   end
   	validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
-
+  	validates_attachment_presence :image
+  	validates :title, presence: :true
+  	validates :description, presence: :true
+  	validates :price, presence: :true, numericality: { greater_than: 0 }
 end
