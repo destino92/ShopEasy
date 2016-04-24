@@ -7,9 +7,12 @@ class Product < ActiveRecord::Base
     				  :dropbox_credentials => Rails.root.join("config/dropbox.yml"),
     				  :path => ":style/:id_:filename"
   end
-  	validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
-  	validates_attachment_presence :image
-  	validates :title, presence: :true
-  	validates :description, presence: :true
-  	validates :price, presence: :true, numericality: { greater_than: 0 }
+
+  validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
+  validates_attachment_presence :image
+  validates :title, presence: true
+  validates :description, presence: true
+  validates :price, presence: true, numericality: { greater_than: 0 }
+
+  belongs_to :user
 end

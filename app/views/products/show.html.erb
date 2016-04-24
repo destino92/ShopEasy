@@ -5,11 +5,12 @@
 		<div class="thumbnail">
 			<%= image_tag @product.image(:medium) %>
 		</div>
+		<p><%= @product.description %></p>
 	</div>
 	<div class="col-md-6">
 		<h2><%= @product.title %></h2>
 		<h4><%= @product.price %> fcfa</h4>
-		<p><%= @product.description %></p>
+		<h4><%= @product.user.name %></h4>
 	</div>
 </div>
 
