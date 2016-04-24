@@ -1,0 +1,21 @@
+<h1 class="text-center"><%= @user.name %>'s products</h1>
+
+<div class="row">
+  <% @user_products.each do |product| %>
+    <div class="col-md-8 panel panel-default col-md-offset-2">
+      <div class="col-sm-4">
+        <%= link_to( image_tag(product.image(:medium)), product_path(product) ) %>
+      </div>
+      <div class="col-sm-6">
+        <p><%= link_to product.title, product_path(product) %></p>
+        <% if (user_signed_in?) && (current_user == product.user) %>
+          <%= link_to 'Edit', edit_product_path(product), class: "btn btn-success" %>
+          <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-success" %>
+        <% end %>
+      </div>
+      <div class="col-sm-2">
+        <p><%= product.price %> fcaf</p>
+      </div>
+    </div>
+  <% end %>
+</div>
