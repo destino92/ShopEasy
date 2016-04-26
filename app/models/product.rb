@@ -15,4 +15,6 @@ class Product < ActiveRecord::Base
   validates :price, presence: true, numericality: { greater_than: 0 }
 
   belongs_to :user
+  has_many :product_categories
+  has_many :categories, through: :product_categories
 end
