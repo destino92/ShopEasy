@@ -5,6 +5,11 @@
 		<div class="thumbnail">
 			<%= image_tag @product.image(:medium) %>
 		</div>
+		<% if @product.categories.any? %>
+			<% @product.categories.each do |productCategory| %>
+				<%= link_to productCategory.name, category_path(productCategory), class: "btn btn-success" %>
+			<% end %>
+		<% end %>
 		<p><%= @product.description %></p>
 	</div>
 	<div class="col-md-6">

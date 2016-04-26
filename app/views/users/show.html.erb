@@ -8,6 +8,11 @@
       </div>
       <div class="col-sm-6">
         <p><%= link_to product.title, product_path(product) %></p>
+        <% if product.categories.any? %>
+          <% product.categories.each do |productCategory| %>
+            <p><%= link_to productCategory.name, category_path(productCategory) %></p>
+          <% end %>
+        <% end %>
         <% if (user_signed_in?) && (current_user == product.user) %>
           <%= link_to 'Edit', edit_product_path(product), class: "btn btn-success" %>
           <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-success" %>
