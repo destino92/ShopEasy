@@ -69,9 +69,9 @@ Resources
 `gem 'devise'` : https://github.com/plataformatec/devise
 `gem 'pg'` : https://bitbucket.org/ged/ruby-pg/wiki/Home
 `gem 'rails_12factor'` : https://github.com/heroku/rails_12factor
-`Heroku` : heroku.com
+`Heroku` : https://heroku.com
 `Ruby` : https://www.ruby-lang.org/en/
 `Insatll Rails`: http://installrails.com/
 `Rails guide` : http://guides.rubyonrails.org/
-`Ruby gem` : rubygems.org
+`Ruby gem` : https://rubygems.org
 
