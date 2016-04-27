@@ -5,7 +5,6 @@ ShopZy(not permanent name)
 
 Here is a live demo and prototype version of [ShopZy](https://shopzy1.herokuapp.com).
 
-======
 
 - [About](#about)
 - [Installation](#how-to-open)
