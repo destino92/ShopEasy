@@ -8,6 +8,7 @@ Here is a live demo and prototype version of [ShopZy](https://shopzy1.herokuapp.
 
 - [About](#about)
 - [Installation](#installation)
+- [Notes](#notes)
 - [To do](#to-do)
 - [Resources](#resources)
 
@@ -33,6 +34,32 @@ Installation
 ------------
 
 For development purpose or checking the code, you just have to fork the repo to work on your local machine create a separate branch for your work and add your changes there.
+
+---
+
+Notes
+-----
+
+For name idea i as having in mind:
+- TEKISA
+- SHOPZY
+- E-ZANDU
+- ZANDU-DIGITAL
+- SOSSA
+
+I was thinking that we could get a name that everybody could use and relate to no matter their ages or social status and really original i hope that we can find one together.
+
+For the logo
+
+I was thinking about following with the name just something simple and slick that could be recognizable like a basket for example straight to the point even just a typographie kind of logo just flat and smooth.
+
+For the colors
+
+I was definitely thinking of flat colors.
+Like yellow green and grey variation of flat colors.
+maybe not the yellow but green and grey would be good.
+
+http://www.flatuicolorpicker.com/
 
 ---
 
