@@ -3,11 +3,9 @@ ShopZy(not permanent name)
 
 ## This is the documentation for the `Shopzy` marketplace.
 
----
-
 Here is a live demo and prototype version of [ShopZy](https://shopzy1.herokuapp.com).
 
----
+======
 
 - [About](#about)
 - [Installation](#how-to-open)
@@ -60,18 +58,18 @@ We need in no particular order:
 
 Resources
 ---------
-`OLX` : https://www.olx.co.ke
-`gem 'bootstrap-sass'` : https://github.com/twbs/bootstrap-sass
-`gem 'simple_form'` : https://github.com/plataformatec/simple_form
-`gem 'paperclip'` : https://github.com/thoughtbot/paperclip
-`gem "paperclip-dropbox"` : https://github.com/janko-m/paperclip-dropbox
-`gem "figaro"` : https://github.com/laserlemon/figaro
-`gem 'devise'` : https://github.com/plataformatec/devise
-`gem 'pg'` : https://bitbucket.org/ged/ruby-pg/wiki/Home
-`gem 'rails_12factor'` : https://github.com/heroku/rails_12factor
-`Heroku` : http://heroku.com
-`Ruby` : https://www.ruby-lang.org/en/
-`Insatll Rails`: http://installrails.com/
-`Rails guide` : http://guides.rubyonrails.org/
-`Ruby gem` : https://rubygems.org
+-`OLX` : https://www.olx.co.ke
+-`gem 'bootstrap-sass'` : https://github.com/twbs/bootstrap-sass
+-`gem 'simple_form'` : https://github.com/plataformatec/simple_form
+-`gem 'paperclip'` : https://github.com/thoughtbot/paperclip
+-`gem "paperclip-dropbox"` : https://github.com/janko-m/paperclip-dropbox
+-`gem "figaro"` : https://github.com/laserlemon/figaro
+-`gem 'devise'` : https://github.com/plataformatec/devise
+-`gem 'pg'` : https://bitbucket.org/ged/ruby-pg/wiki/Home
+-`gem 'rails_12factor'` : https://github.com/heroku/rails_12factor
+-`Heroku` : http://heroku.com
+-`Ruby` : https://www.ruby-lang.org/en/
+-`Insatll Rails`: http://installrails.com/
+-`Rails guide` : http://guides.rubyonrails.org/
+-`Ruby gem` : https://rubygems.org
 
