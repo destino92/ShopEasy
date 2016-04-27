@@ -7,7 +7,7 @@ Here is a live demo and prototype version of [ShopZy](https://shopzy1.herokuapp.
 
 
 - [About](#about)
-- [Installation](#how-to-open)
+- [Installation](#installation)
 - [To do](#to-do)
 - [Resources](#resources)
 
